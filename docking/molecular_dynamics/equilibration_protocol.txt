@@ -1,0 +1,26 @@
+Equilibration Protocol for Molecular Dynamics Simulation
+
+Step 1: Energy Minimization
+--------------------------------
+Algorithm: Steepest Descent
+Maximum steps: 50,000
+
+Step 2: NVT Equilibration
+--------------------------------
+Temperature: 300 K
+Duration: 1 ns
+
+Step 3: NPT Equilibration
+--------------------------------
+Pressure: 1 atm
+Duration: 1 ns
+
+Step 4: Production Simulation
+--------------------------------
+Duration: 200 ns
+Trajectory recording interval: 10 ps
+
+Purpose
+--------------------------------
+To stabilize the docked complex of FLQ_Mod_2 within the hERG channel
+prior to production simulation and interaction analysis.
