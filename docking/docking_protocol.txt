@@ -1,0 +1,49 @@
+Docking Protocol for hERG Channel Interaction Analysis
+
+Protein Target
+--------------
+Human Ether-à-go-go Related Gene (hERG) potassium channel
+
+PDB ID:
+5VA1
+
+Protein Preparation
+-------------------
+The hERG channel structure (PDB ID: 5VA1) was obtained from the Protein Data Bank.
+Protein preparation involved removal of crystallographic water molecules,
+addition of polar hydrogens, and assignment of appropriate partial charges.
+
+Ligand Preparation
+------------------
+Fluoroquinolone analogs were prepared using ChemDraw and converted to 3D
+structures using Open Babel. Energy minimization was performed prior to docking.
+
+Docking Software
+----------------
+CB-Dock2 (AutoDock Vina based docking engine)
+
+Docking Parameters
+------------------
+Search space was automatically detected using cavity detection in CB-Dock2.
+
+Number of docking poses: 10
+Exhaustiveness: default
+Scoring function: AutoDock Vina
+
+Key Binding Site Residues
+-------------------------
+Tyr542
+Phe551
+Ala548
+Arg541
+
+These residues are known contributors to hERG channel drug binding
+and cardiotoxicity through aromatic and hydrophobic interactions.
+
+Docking Output
+--------------
+Representative docking pose for FLQ_Mod_2 was selected based on
+binding energy and orientation relative to key residues.
+
+Predicted docking score:
+FLQ_Mod_2 ≈ −8.1 kcal/mol
