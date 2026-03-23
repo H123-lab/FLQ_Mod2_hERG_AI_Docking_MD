@@ -1,0 +1,26 @@
+; Molecular Dynamics Parameters
+integrator      = md
+dt              = 0.002
+nsteps          = 100000000
+
+; Temperature control
+tcoupl          = V-rescale
+tc-grps         = Protein_LIG Water_and_ions
+tau_t           = 0.1 0.1
+ref_t           = 300 300
+
+; Pressure control
+pcoupl          = Parrinello-Rahman
+ref_p           = 1.0
+tau_p           = 2.0
+
+; Constraints
+constraints     = h-bonds
+
+; Cutoffs
+rlist           = 1.0
+rcoulomb        = 1.0
+rvdw            = 1.0
+
+; Periodic boundary
+pbc             = xyz
