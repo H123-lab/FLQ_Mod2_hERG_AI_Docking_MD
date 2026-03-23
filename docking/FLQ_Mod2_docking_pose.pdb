@@ -1,0 +1,12 @@
+HEADER    DOCKING POSE OF FLQ_Mod_2 IN hERG CHANNEL
+TITLE     REPRESENTATIVE DOCKING POSE SELECTED FROM CB-DOCK2 RESULTS
+REMARK    Ligand: FLQ_Mod_2
+REMARK    Docking software: CB-Dock2 (AutoDock Vina)
+REMARK    Binding pocket residues:
+REMARK    Tyr542
+REMARK    Phe551
+REMARK    Ala548
+REMARK    Arg541
+REMARK    Docking score: -8.1 kcal/mol
+
+END
