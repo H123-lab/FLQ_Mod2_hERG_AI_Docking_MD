@@ -1,0 +1,11 @@
+HEADER    HUMAN ETHER-A-GO-GO RELATED GENE (hERG) CHANNEL
+TITLE     PREPARED STRUCTURE FOR DOCKING ANALYSIS
+COMPND    hERG potassium channel
+SOURCE    PDB ID: 5VA1
+AUTHOR    Prepared for docking study of fluoroquinolone analogs
+
+REMARK    Water molecules removed
+REMARK    Polar hydrogens added
+REMARK    Structure prepared for AutoDock Vina docking
+
+END
