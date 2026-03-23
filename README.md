@@ -30,10 +30,13 @@ All data are provided to support reproducibility of the computational workflow a
 
 Computational Drug Design Laboratory
 
-## Data Availability
+## Data and Materials Availability
 
 All computational datasets, docking inputs, molecular dynamics trajectories,
 and MM/PBSA analysis files are available in this repository.
 
 This dataset enables reproducibility of the AI-guided redesign of
 fluoroquinolone scaffolds targeting reduced hERG interaction.
+
+All data supporting the findings of this study are provided in the manuscript and Supplementary Materials. Additional raw datasets, including docking input files, MD trajectories, and MM/PBSA energy outputs, are available from the corresponding author upon reasonable request. Repository deposition (e.g., Zenodo/figshare DOI) will be made available upon acceptance.
+
