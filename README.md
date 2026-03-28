@@ -20,7 +20,7 @@ The repository includes:
 
 ## Methods Summary
 
-Docking simulations were performed using Glide and GNINA against the hERG channel structure (PDB ID: 5VA1). Molecular dynamics simulations were conducted for 200 ns to assess ligand stability within the channel cavity. Binding free energies were estimated using MM/GBSA analysis over the final 100 ns of trajectory sampling.
+Docking simulations were performed using Glide and GNINA against the hERG channel structure (PDB ID: 5VA1). Molecular dynamics simulations were conducted for 200 ns to assess ligand stability within the channel cavity. Binding free energies were estimated using MM/GBSA method implemented in the gmx_MMPBSA package over the final 100 ns of trajectory sampling.
 
 ## Reproducibility
 
