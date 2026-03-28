@@ -6,4 +6,4 @@ data["Running_Average"] = data["DeltaG_bind"].expanding().mean()
 
 data.to_csv("convergence_data.csv", index=False)
 
-print("MM/PBSA convergence analysis complete.")
+print("MM/GBSA convergence analysis complete.")
