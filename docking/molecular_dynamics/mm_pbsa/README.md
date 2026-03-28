@@ -1,14 +1,14 @@
-MM/PBSA Binding Free Energy Analysis
+MM/GBSA Binding Free Energy Analysis
 
 This folder contains files related to the molecular mechanics / Poisson–
-Boltzmann surface area (MM/PBSA) binding free energy analysis performed
+Boltzmann surface area (MM/GBSA) binding free energy analysis performed
 on the FLQ_Mod_2 – hERG complex.
 
 Method Overview
 ---------------
 
 Binding free energies were estimated from molecular dynamics trajectories
-using the MM/PBSA approach.
+using the MM/GBSA approach.
 
 Trajectory frames were extracted from the final 100 ns of the
 200 ns molecular dynamics simulation.
