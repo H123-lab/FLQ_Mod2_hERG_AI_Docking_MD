@@ -15,12 +15,12 @@ The repository includes:
 • Docking input grids and representative binding poses  
 • Molecular dynamics input files and representative trajectory frames  
 • RMSD and RMSF analysis datasets  
-• MM/PBSA binding free energy calculations  
+• MM/GBSA binding free energy calculations  
 • Convergence analysis scripts used to generate Supplementary Figure S8  
 
 ## Methods Summary
 
-Docking simulations were performed using Glide and GNINA against the hERG channel structure (PDB ID: 5VA1). Molecular dynamics simulations were conducted for 200 ns to assess ligand stability within the channel cavity. Binding free energies were estimated using MM/PBSA analysis over the final 100 ns of trajectory sampling.
+Docking simulations were performed using Glide and GNINA against the hERG channel structure (PDB ID: 5VA1). Molecular dynamics simulations were conducted for 200 ns to assess ligand stability within the channel cavity. Binding free energies were estimated using MM/GBSA analysis over the final 100 ns of trajectory sampling.
 
 ## Reproducibility
 
@@ -38,5 +38,5 @@ and MM/PBSA analysis files are available in this repository.
 This dataset enables reproducibility of the AI-guided redesign of
 fluoroquinolone scaffolds targeting reduced hERG interaction.
 
-All data supporting the findings of this study are provided in the manuscript and Supplementary Materials. Additional raw datasets, including docking input files, MD trajectories, and MM/PBSA energy outputs, are available from the corresponding author upon reasonable request. Repository deposition (e.g., Zenodo/figshare DOI) will be made available upon acceptance.
+All data supporting the findings of this study are provided in the manuscript and Supplementary Materials. Additional raw datasets, including docking input files, MD trajectories, and MM/GBSA energy outputs, are available from the corresponding author upon reasonable request. Repository deposition (e.g., Zenodo/figshare DOI) will be made available upon acceptance.
 
