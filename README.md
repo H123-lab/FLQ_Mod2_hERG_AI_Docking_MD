@@ -33,7 +33,7 @@ Computational Drug Design Laboratory
 ## Data and Materials Availability
 
 All computational datasets, docking inputs, molecular dynamics trajectories,
-and MM/PBSA analysis files are available in this repository.
+and MM/GBSA analysis files are available in this repository.
 
 This dataset enables reproducibility of the AI-guided redesign of
 fluoroquinolone scaffolds targeting reduced hERG interaction.
