@@ -18,6 +18,6 @@ These structures were used for:
 
 • docking simulations  
 • molecular dynamics simulations  
-• MM/PBSA binding free energy calculations  
+• MM/GBSA binding free energy calculations  
 
 All structures are provided in SDF format for reproducibility.
